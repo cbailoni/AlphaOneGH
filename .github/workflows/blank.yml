@@ -35,6 +35,6 @@ jobs:
           echo test, and deploy your project.
 
       # Deploys to Development
-      - name: Deploy
-        runs: ubuntu-latest
-        environment: Development
+    deployment:
+      runs-on: ubuntu-latest
+      environment: production
